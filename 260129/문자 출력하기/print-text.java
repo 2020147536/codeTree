@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
-        char n = sc.next();
+        String n = sc.next();
         for (int i = 0; i < 8; i++) System.out.print(n);        
     }
 }
