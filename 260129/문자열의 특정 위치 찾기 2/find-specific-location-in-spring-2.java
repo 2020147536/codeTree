@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
         String[] s = {"apple", "banana", "grape", "blueberry", "orange"};
-        char a = sc.nextChar();
+        char a = sc.next().charAt(0);
         int count = 0;
         for (int i = 0; i < 5; i++) {
             if (s[i].charAt(2) == a || s[i].charAt(3) == a) {
