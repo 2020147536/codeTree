@@ -5,6 +5,6 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        Sysetem.out.println((a%13==0)||(a%19==0)?"True":"False");
+        System.out.println((a%13==0)||(a%19==0)?"True":"False");
     }
 }
