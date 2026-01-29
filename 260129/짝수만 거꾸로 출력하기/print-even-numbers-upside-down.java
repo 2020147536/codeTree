@@ -12,7 +12,7 @@ public class Main {
             int a = Integer.parseInt(st.nextToken());
             if (a%2 == 0) s.push(a);
         }
-        StringBuilder sb = new Stringbuilder();
+        StringBuilder sb = new StringBuilder();
         while (!s.isEmpty()) {
             sb.append(s.pop()).append(" ");
         }
