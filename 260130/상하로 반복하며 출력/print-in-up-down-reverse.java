@@ -8,7 +8,8 @@ public class Main {
         int[][] map = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                map[j][i] = j+1;
+                if (i%2==0) map[j][i] = j+1;
+                else map[n-j-1][i] = j+1;
             }
         }
          for (int i = 0; i < n; i++) {
