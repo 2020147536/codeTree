@@ -15,7 +15,7 @@ public class Main {
             for (int j = 0; j < n; j++) {
                 System.out.print(map[i][j]);
             }
-            System.out.pirntln();
+            System.out.println();
         }
     }
 }
