@@ -3,6 +3,6 @@ public class Main {
         // Please write your code here.
         int a = 3;
         int b = 'C';
-        System.out.printf("%d!.....!%c", a, b);
+        System.out.printf("%c!.....!%d", b, a);
     }
 }
