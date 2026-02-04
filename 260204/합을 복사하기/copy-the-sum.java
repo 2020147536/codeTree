@@ -5,8 +5,8 @@ public class Main {
         int b = 2;
         int c = 3;
         a = a + b + c;
-        b = a + b + c;
-        c = a + b + c;
+        b = a;
+        c = a;
         System.out.printf("%d %d %d", a, b, c);
     }
 }
